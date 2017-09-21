@@ -1,0 +1,1049 @@
+ninja: Entering directory `build/Debug'
+[1/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_linkfilter.steamclient.pb.o
+[2/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.atomicops_internals_x86_gcc.o
+[3/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.atomicops_internals_x86_msvc.o
+[4/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.common.o
+[5/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.arena.o
+[6/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.bytestream.o
+[7/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.int128.o
+[8/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.once.o
+[9/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.status.o
+[10/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.statusor.o
+[11/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.strutil.o
+[12/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.stringpiece.o
+[13/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.stringprintf.o
+[14/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.structurally_valid.o
+[15/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.time.o
+[16/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.arenastring.o
+[17/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.extension_set.o
+[18/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.message_lite.o
+[19/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.any.pb.o
+[20/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.generated_message_util.o
+[21/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.repeated_field.o
+[22/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/io/protobuf.zero_copy_stream_impl_lite.o
+[23/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.wire_format_lite.o
+[24/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/io/protobuf.coded_stream.o
+[25/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/io/protobuf.zero_copy_stream.o
+[26/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.api.pb.o
+[27/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.any.o
+[28/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.mathlimits.o
+[29/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.descriptor.o
+[30/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.descriptor.pb.o
+[31/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.descriptor_database.o
+[32/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.duration.pb.o
+[33/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.c_peer2peer_netmessages.pb.o
+[34/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.demo.pb.o
+[35/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.clientmessages.pb.o
+[36/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_broadcastmessages.pb.o
+[37/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_clientmessages.pb.o
+[38/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_client_enums.pb.o
+[39/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_commonmessages.pb.o
+[40/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_client.pb.o
+[41/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_client_chat.pb.o
+[42/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_client_fantasy.pb.o
+[43/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.pkcspad.o
+[44/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.polynomi.o
+[45/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.pssr.o
+[46/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_client_match_management.pb.o
+[47/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_client_tournament.pb.o
+[48/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_client_watch.pb.o
+[49/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_common_bot_script.pb.o
+[50/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_msgid.pb.o
+[51/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_common_match_management.pb.o
+[52/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_server.pb.o
+[53/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_hud_types.pb.o
+[54/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_match_metadata.pb.o
+[55/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_modifiers.pb.o
+[56/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_shared_enums.pb.o
+[57/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_usermessages.pb.o
+[58/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.econ_gcmessages.pb.o
+[59/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.econ_shared_enums.pb.o
+[60/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.gameevents.pb.o
+[61/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.gametoolevents.pb.o
+[62/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.gcsdk_gcmessages.pb.o
+[63/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.gcsystemmsgs.pb.o
+[64/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.netmessages.pb.o
+[65/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.networkbasetypes.pb.o
+[66/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.network_connection.pb.o
+[67/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.steammessages.pb.o
+[68/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.steammessages_cloud.steamworkssdk.pb.o
+[69/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.steammessages_oauth.steamworkssdk.pb.o
+[70/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.steammessages_publishedfile.steamworkssdk.pb.o
+[71/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.te.pb.o
+[72/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.steammessages_unified_base.steamworkssdk.pb.o
+[73/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.usermessages.pb.o
+[74/334] CC obj/libsteam/vendor/zlib/zlib.deflate.o
+../../libsteam/vendor/zlib/deflate.c:415:38: warning: cast from 'const unsigned char *' to 'unsigned char *' drops const qualifier [-Wcast-qual]
+    strm->next_in = (z_const Bytef *)dictionary;
+                                     ^
+../../libsteam/vendor/zlib/deflate.c:1341:18: warning: possible misuse of comma operator here [-Wcomma]
+        scan += 2, match++;
+                 ^
+../../libsteam/vendor/zlib/deflate.c:1341:9: note: cast expression to void to silence warning
+        scan += 2, match++;
+        ^~~~~~~~~
+        (void)(  )
+../../libsteam/vendor/zlib/deflate.c:1958:41: warning: possible misuse of comma operator here [-Wcomma]
+        s->prev_length = s->match_length, s->prev_match = s->match_start;
+                                        ^
+../../libsteam/vendor/zlib/deflate.c:1958:9: note: cast expression to void to silence warning
+        s->prev_length = s->match_length, s->prev_match = s->match_start;
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        (void)(                         )
+3 warnings generated.
+[75/334] CC obj/libsteam/vendor/zlib/zlib.gzclose.o
+[76/334] CC obj/libsteam/vendor/zlib/zlib.gzlib.o
+[77/334] CC obj/libsteam/vendor/zlib/zlib.gzread.o
+../../libsteam/vendor/zlib/gzlib.c:252:9: warning: implicit declaration of function 'lseek' is invalid in C99 [-Wimplicit-function-declaration]
+        LSEEK(state->fd, 0, SEEK_END);  /* so gzoffset() is correct */
+        ^
+../../libsteam/vendor/zlib/gzlib.c:14:17: note: expanded from macro 'LSEEK'
+#  define LSEEK lseek
+                ^
+../../libsteam/vendor/zlib/gzlib.c:252:9: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+../../libsteam/vendor/zlib/gzlib.c:14:17: note: expanded from macro 'LSEEK'
+#  define LSEEK lseek
+                ^
+2 warnings generated.
+[78/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.3way.o
+../../libsteam/vendor/zlib/gzread.c:35:15: warning: implicit declaration of function 'read' is invalid in C99 [-Wimplicit-function-declaration]
+        ret = read(state->fd, buf + *have, get);
+              ^
+../../libsteam/vendor/zlib/gzread.c:35:15: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+../../libsteam/vendor/zlib/gzread.c:651:11: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+    ret = close(state->fd);
+          ^
+../../libsteam/vendor/zlib/gzread.c:651:11: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+4 warnings generated.
+[79/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_publishedfile.steamclient.pb.o
+[80/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_remoteclient.pb.o
+[81/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_secrets.steamclient.pb.o
+[82/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_remoteclient_discovery.pb.o
+[83/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_shader.steamclient.pb.o
+[84/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_sitelicenseclient.pb.o
+[85/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_store.steamclient.pb.o
+[86/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_site_license.steamclient.pb.o
+[87/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_video.steamclient.pb.o
+[88/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_twofactor.steamclient.pb.o
+[89/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_unified_base.steamclient.pb.o
+[90/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_unified_test.steamclient.pb.o
+[91/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_useraccount.steamclient.pb.o
+[92/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.base_gcmessages.pb.o
+[93/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.empty.pb.o
+[94/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.dynamic_message.o
+[95/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.field_mask.pb.o
+[96/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.message.o
+[97/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.extension_set_heavy.o
+[98/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.generated_message_reflection.o
+[99/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.map_field.o
+[100/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.service.o
+[101/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.reflection_ops.o
+[102/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.struct.pb.o
+[103/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.source_context.pb.o
+[104/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.text_format.o
+[105/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.type.pb.o
+[106/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/stubs/protobuf.substitute.o
+[107/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.timestamp.pb.o
+[108/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.wire_format.o
+[109/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.default_value_objectwriter.o
+[110/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.unknown_field_set.o
+[111/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/protobuf.wrappers.pb.o
+[112/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/io/protobuf.gzip_stream.o
+[113/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/io/protobuf.printer.o
+[114/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/io/protobuf.strtod.o
+[115/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/io/protobuf.tokenizer.o
+[116/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/protobuf.delimited_message_util.o
+[117/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/io/protobuf.zero_copy_stream_impl.o
+[118/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/compiler/protobuf.importer.o
+[119/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/compiler/protobuf.parser.o
+[120/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/protobuf.field_comparator.o
+[121/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/protobuf.field_mask_util.o
+[122/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.datapiece.o
+[123/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.field_mask_utility.o
+[124/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.error_listener.o
+[125/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.json_objectwriter.o
+[126/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.json_escaping.o
+[127/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_client_guild.pb.o
+[128/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_client_team.pb.o
+[129/334] CXX obj/libsteam/protobufs/dota/protobuf-dota.dota_gcmessages_common.pb.o
+[130/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.json_stream_parser.o
+[131/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.protostream_objectsource.o
+[132/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.object_writer.o
+[133/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.protostream_objectwriter.o
+[134/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.proto_writer.o
+[135/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.type_info_test_helper.o
+[136/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.type_info.o
+[137/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/protobuf.json_util.o
+[138/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/internal/protobuf.utility.o
+[139/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/protobuf.time_util.o
+[140/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/protobuf.message_differencer.o
+[141/334] CXX obj/libsteam/protobufs/protobuf/src/google/protobuf/util/protobuf.type_resolver_util.o
+[142/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_clientlanp2p.pb.o
+[143/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.htmlmessages.pb.o
+[144/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_inventory.steamclient.pb.o
+[145/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_base.pb.o
+[146/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_accounthardware.steamclient.pb.o
+[147/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.encrypted_app_ticket.pb.o
+[148/334] AR obj/libsteam/protobufs/libprotobuf.a
+[149/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.content_manifest.pb.o
+[150/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_broadcast.steamclient.pb.o
+[151/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_clientserver.pb.o
+[152/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_clientserver_2.pb.o
+[153/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_depotbuilder.steamclient.pb.o
+[154/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_deviceauth.steamclient.pb.o
+[155/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_gamenotifications.steamclient.pb.o
+[156/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_hiddevices.pb.o
+[157/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_offline.steamclient.pb.o
+[158/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_gameservers.steamclient.pb.o
+[159/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.ccm.o
+[160/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.chacha.o
+[161/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.channels.o
+[162/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.cmac.o
+[163/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.cpu.o
+[164/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_parental.steamclient.pb.o
+[165/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_player.steamclient.pb.o
+[166/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_partnerapps.steamclient.pb.o
+[167/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_clientserver_friends.pb.o
+[168/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_clientserver_login.pb.o
+[169/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_cloud.steamclient.pb.o
+[170/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_datapublisher.steamclient.pb.o
+[171/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_econ.steamclient.pb.o
+[172/334] CXX obj/libsteam/protobufs/steam/protobuf-steam.steammessages_credentials.steamclient.pb.o
+[173/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.algebra.o
+[174/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.algparam.o
+[175/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.arc4.o
+[176/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.asn.o
+[177/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.authenc.o
+[178/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.base32.o
+[179/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.base64.o
+[180/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.basecode.o
+[181/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.bench1.o
+[182/334] CC obj/libsteam/vendor/zlib/zlib.zutil.o
+[183/334] AR obj/libsteam/protobufs/libprotobuf-steam.a
+[184/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.adler32.o
+[185/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.bench2.o
+[186/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.bfinit.o
+[187/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.blake2.o
+[188/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.blowfish.o
+[189/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.blumshub.o
+[190/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.camellia.o
+[191/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.cast.o
+[192/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.casts.o
+[193/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.cbcmac.o
+[194/334] CC obj/libsteam/vendor/zlib/zlib.compress.o
+[195/334] CC obj/libsteam/vendor/zlib/zlib.crc32.o
+../../libsteam/vendor/zlib/compress.c:46:39: warning: cast from 'const unsigned char *' to 'unsigned char *' drops const qualifier [-Wcast-qual]
+    stream.next_in = (z_const Bytef *)source;
+                                      ^
+1 warning generated.
+[196/334] AR obj/libsteam/protobufs/libprotobuf-dota.a
+[197/334] CC obj/libsteam/vendor/zlib/zlib.adler32.o
+[198/334] CC obj/libsteam/vendor/zlib/zlib.gzwrite.o
+[199/334] CC obj/libsteam/vendor/zlib/zlib.infback.o
+[200/334] CC obj/libsteam/vendor/zlib/zlib.inffast.o
+[201/334] CC obj/libsteam/vendor/zlib/zlib.inflate.o
+../../libsteam/vendor/zlib/gzwrite.c:89:20: warning: implicit declaration of function 'write' is invalid in C99 [-Wimplicit-function-declaration]
+            writ = write(state->fd, strm->next_in, put);
+                   ^
+../../libsteam/vendor/zlib/gzwrite.c:89:20: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+../../libsteam/vendor/zlib/gzwrite.c:228:48: warning: cast from 'const void *' to 'unsigned char *' drops const qualifier [-Wcast-qual]
+        state->strm.next_in = (z_const Bytef *)buf;
+                                               ^
+../../libsteam/vendor/zlib/gzwrite.c:428:40: warning: format string is not a string literal [-Wformat-nonliteral]
+    len = vsnprintf(next, state->size, format, va);
+                                       ^~~~~~
+../../libsteam/vendor/zlib/gzwrite.c:661:9: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+    if (close(state->fd) == -1)
+        ^
+../../libsteam/vendor/zlib/gzwrite.c:661:9: warning: this function declaration is not a prototype [-Wstrict-prototypes]
+6 warnings generated.
+[202/334] CC obj/libsteam/vendor/zlib/zlib.inftrees.o
+[203/334] CC obj/libsteam/vendor/zlib/zlib.trees.o
+[204/334] CC obj/libsteam/vendor/zlib/zlib.uncompr.o
+[205/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.crc.o
+[206/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.cryptlib.o
+../../libsteam/vendor/zlib/trees.c:513:49: warning: possible misuse of comma operator here [-Wcomma]
+        if (bits > max_length) bits = max_length, overflow++;
+                                                ^
+../../libsteam/vendor/zlib/trees.c:513:32: note: cast expression to void to silence warning
+        if (bits > max_length) bits = max_length, overflow++;
+                               ^~~~~~~~~~~~~~~~~
+                               (void)(          )
+../../libsteam/vendor/zlib/trees.c:630:20: warning: possible misuse of comma operator here [-Wcomma]
+    s->heap_len = 0, s->heap_max = HEAP_SIZE;
+                   ^
+../../libsteam/vendor/zlib/trees.c:630:5: note: cast expression to void to silence warning
+    s->heap_len = 0, s->heap_max = HEAP_SIZE;
+    ^~~~~~~~~~~~~~~
+    (void)(        )
+../../libsteam/vendor/zlib/trees.c:716:38: warning: possible misuse of comma operator here [-Wcomma]
+    if (nextlen == 0) max_count = 138, min_count = 3;
+                                     ^
+../../libsteam/vendor/zlib/trees.c:716:23: note: cast expression to void to silence warning
+    if (nextlen == 0) max_count = 138, min_count = 3;
+                      ^~~~~~~~~~~~~~~
+                      (void)(        )
+../../libsteam/vendor/zlib/trees.c:735:28: warning: possible misuse of comma operator here [-Wcomma]
+            max_count = 138, min_count = 3;
+                           ^
+../../libsteam/vendor/zlib/trees.c:735:13: note: cast expression to void to silence warning
+            max_count = 138, min_count = 3;
+            ^~~~~~~~~~~~~~~
+            (void)(        )
+../../libsteam/vendor/zlib/trees.c:737:26: warning: possible misuse of comma operator here [-Wcomma]
+            max_count = 6, min_count = 3;
+                         ^
+../../libsteam/vendor/zlib/trees.c:737:13: note: cast expression to void to silence warning
+            max_count = 6, min_count = 3;
+            ^~~~~~~~~~~~~
+            (void)(      )
+../../libsteam/vendor/zlib/trees.c:739:26: warning: possible misuse of comma operator here [-Wcomma]
+            max_count = 7, min_count = 4;
+                         ^
+../../libsteam/vendor/zlib/trees.c:739:13: note: cast expression to void to silence warning
+            max_count = 7, min_count = 4;
+            ^~~~~~~~~~~~~
+            (void)(      )
+../../libsteam/vendor/zlib/trees.c:762:38: warning: possible misuse of comma operator here [-Wcomma]
+    if (nextlen == 0) max_count = 138, min_count = 3;
+                                     ^
+../../libsteam/vendor/zlib/trees.c:762:23: note: cast expression to void to silence warning
+    if (nextlen == 0) max_count = 138, min_count = 3;
+                      ^~~~~~~~~~~~~~~
+                      (void)(        )
+../../libsteam/vendor/zlib/trees.c:786:28: warning: possible misuse of comma operator here [-Wcomma]
+            max_count = 138, min_count = 3;
+                           ^
+../../libsteam/vendor/zlib/trees.c:786:13: note: cast expression to void to silence warning
+            max_count = 138, min_count = 3;
+            ^~~~~~~~~~~~~~~
+            (void)(        )
+../../libsteam/vendor/zlib/trees.c:788:26: warning: possible misuse of comma operator here [-Wcomma]
+            max_count = 6, min_count = 3;
+                         ^
+../../libsteam/vendor/zlib/trees.c:788:13: note: cast expression to void to silence warning
+            max_count = 6, min_count = 3;
+            ^~~~~~~~~~~~~
+            (void)(      )
+../../libsteam/vendor/zlib/trees.c:790:26: warning: possible misuse of comma operator here [-Wcomma]
+            max_count = 7, min_count = 4;
+                         ^
+../../libsteam/vendor/zlib/trees.c:790:13: note: cast expression to void to silence warning
+            max_count = 7, min_count = 4;
+            ^~~~~~~~~~~~~
+            (void)(      )
+../../libsteam/vendor/zlib/trees.c:1165:19: warning: possible misuse of comma operator here [-Wcomma]
+        code >>= 1, res <<= 1;
+                  ^
+../../libsteam/vendor/zlib/trees.c:1165:9: note: cast expression to void to silence warning
+        code >>= 1, res <<= 1;
+        ^~~~~~~~~~
+        (void)(   )
+11 warnings generated.
+[207/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.cryptlib_bds.o
+[208/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.datatest.o
+../../libsteam/vendor/zlib/uncompr.c:49:39: warning: cast from 'const unsigned char *' to 'unsigned char *' drops const qualifier [-Wcast-qual]
+    stream.next_in = (z_const Bytef *)source;
+                                      ^
+1 warning generated.
+[209/334] AR obj/libsteam/libzlib.a
+[210/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.default.o
+[211/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.des.o
+[212/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.dessp.o
+[213/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.dh.o
+[214/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.dh2.o
+[215/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.dll.o
+[216/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.dlltest.o
+[217/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.dsa.o
+[218/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.eax.o
+[219/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.ec2n.o
+[220/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.eccrypto.o
+[221/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.ecp.o
+[222/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.elgamal.o
+[223/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.emsa2.o
+[224/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.eprecomp.o
+[225/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.esign.o
+[226/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.files.o
+[227/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.filters.o
+[228/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.fips140.o
+[229/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.fipsalgt.o
+[230/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.fipstest.o
+[231/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.gcm.o
+[232/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.gf256.o
+[233/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.gf2n.o
+[234/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.gf2_32.o
+[235/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.gfpcrypt.o
+[236/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.gost.o
+[237/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.gzip.o
+[238/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.hex.o
+[239/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.hmac.o
+[240/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.hrtimer.o
+[241/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.ida.o
+[242/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.idea.o
+[243/334] CXX obj/libsteam/vendor/cryptopp/cryptopp.integer.o
+[244/334] CXX obj/src/rd2lbot.main.o
+[245/334] CXX obj/src/dota/rd2lbot.Dota.o
+[246/334] CXX obj/libirc/libirc.IRCBase.o
+[247/334] CXX obj/libsteam/libdota2/libdota2.GC.o
+[248/334] CXX obj/src/rd2lbot.BotStateMachine.o
+[249/334] CXX obj/src/dota/rd2lbot.SteamDirectory.o
+FAILED: c++ -MMD -MF obj/libirc/libirc.IRCBase.o.d -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_NO_DEPRECATED -DBOOST_ERROR_CODE_HEADER_ONLY -DDEBUG -I../../libirc -I../../libsteam/vendor -Weverything -Wno-unused-function -Wno-non-virtual-dtor -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-c++11-extensions -Wno-c++11-long-long -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-documentation -Wno-documentation-unknown-command -Wno-newline-eof -Wno-shadow -Wno-undef -Wno-implicit-fallthrough -Wno-padded -Wno-conversion -Wno-undefined-reinterpret-cast -Wno-weak-vtables -Wno-deprecated -Wno-extra-semi -Wno-switch-enum -Wno-global-constructors -Wno-exit-time-destructors -Wno-reserved-id-macro -Wno-sign-conversion -Wno-covered-switch-default -Wno-reorder -Wno-double-promotion -Wno-missing-prototypes -Wno-missing-variable-declarations --system-header-prefix=google/protobuf --system-header-prefix=boost --system-header-prefix=cryptopp   -c ../../libirc/IRCBase.cpp -o obj/libirc/libirc.IRCBase.o
+In file included from ../../libirc/IRCBase.cpp:1:
+In file included from ../../libirc/IRCBase.h:6:
+In file included from ../../libsteam/vendor/ksignals.h:6:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/type_traits:35:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/bits/c++0x_warning.h:32:2: error: This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+#error This file requires compiler and library support \
+ ^
+In file included from ../../libirc/IRCBase.cpp:1:
+In file included from ../../libirc/IRCBase.h:6:
+In file included from ../../libsteam/vendor/ksignals.h:8:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/shared_mutex:35:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/bits/c++14_warning.h:32:2: error: This file requires compiler and library support for the ISO C++ 2014 standard. This support must be enabled with the -std=c++14 or -std=gnu++14 compiler options.
+#error This file requires compiler and library support \
+ ^
+In file included from ../../libirc/IRCBase.cpp:1:
+In file included from ../../libirc/IRCBase.h:6:
+../../libsteam/vendor/ksignals.h:17:9: error: no template named 'is_placeholder'; did you mean 'boost::is_placeholder'?
+        struct is_placeholder< ::ksignals::placeholder<I>> : std::integral_constant<int, I> {};
+               ^~~~~~~~~~~~~~
+               boost::is_placeholder
+../../libsteam/vendor/boost/is_placeholder.hpp:24:28: note: 'boost::is_placeholder' declared here
+template< class T > struct is_placeholder
+                           ^
+In file included from ../../libirc/IRCBase.cpp:1:
+In file included from ../../libirc/IRCBase.h:6:
+../../libsteam/vendor/ksignals.h:17:53: error: expected expression
+        struct is_placeholder< ::ksignals::placeholder<I>> : std::integral_constant<int, I> {};
+                                                           ^
+../../libsteam/vendor/ksignals.h:17:86: error: expected a type
+        struct is_placeholder< ::ksignals::placeholder<I>> : std::integral_constant<int, I> {};
+                                                                                            ^
+../../libsteam/vendor/ksignals.h:23:8: warning: variable templates are a C++14 extension [-Wc++14-extensions]
+                auto easy_bind(std::integer_sequence<size_t, Is...>, F const& f, Args&&... args)
+                     ^
+../../libsteam/vendor/ksignals.h:22:27: error: template parameter pack must be the last template parameter
+                template<std::size_t... Is, class F, class... Args>
+                                        ^
+../../libsteam/vendor/ksignals.h:23:23: error: no member named 'integer_sequence' in namespace 'std'
+                auto easy_bind(std::integer_sequence<size_t, Is...>, F const& f, Args&&... args)
+                               ~~~~~^
+../../libsteam/vendor/ksignals.h:23:40: error: unexpected type name 'size_t': expected expression
+                auto easy_bind(std::integer_sequence<size_t, Is...>, F const& f, Args&&... args)
+                                                     ^
+../../libsteam/vendor/ksignals.h:23:83: error: expected ';' at end of declaration
+                auto easy_bind(std::integer_sequence<size_t, Is...>, F const& f, Args&&... args)
+                                                                                                ^
+                                                                                                ;
+../../libsteam/vendor/ksignals.h:24:3: error: expected unqualified-id
+                {
+                ^
+../../libsteam/vendor/ksignals.h:30:7: warning: variable templates are a C++14 extension [-Wc++14-extensions]
+        auto easy_bind(std::function<R(FArgs...)> const& f, Args&&... args)
+             ^
+../../libsteam/vendor/ksignals.h:29:29: error: template parameter pack must be the last template parameter
+        template<class R, class... FArgs, class... Args>
+                                   ^
+../../libsteam/vendor/ksignals.h:30:22: error: no member named 'function' in namespace 'std'
+        auto easy_bind(std::function<R(FArgs...)> const& f, Args&&... args)
+                       ~~~~~^
+../../libsteam/vendor/ksignals.h:30:33: error: 'FArgs' does not refer to a value
+        auto easy_bind(std::function<R(FArgs...)> const& f, Args&&... args)
+                                       ^
+../../libsteam/vendor/ksignals.h:29:29: note: declared here
+        template<class R, class... FArgs, class... Args>
+                                   ^
+../../libsteam/vendor/ksignals.h:30:44: error: expected expression
+        auto easy_bind(std::function<R(FArgs...)> const& f, Args&&... args)
+                                                  ^
+../../libsteam/vendor/ksignals.h:30:54: error: 'Args' does not refer to a value
+        auto easy_bind(std::function<R(FArgs...)> const& f, Args&&... args)
+                                                            ^
+../../libsteam/vendor/ksignals.h:29:45: note: declared here
+        template<class R, class... FArgs, class... Args>
+                                                   ^
+../../libsteam/vendor/ksignals.h:30:69: error: expected ';' at end of declaration
+        auto easy_bind(std::function<R(FArgs...)> const& f, Args&&... args)
+                                                                           ^
+                                                                           ;
+../../libsteam/vendor/ksignals.h:31:2: error: expected unqualified-id
+        {
+        ^
+../../libsteam/vendor/ksignals.h:36:2: error: 'auto' not allowed in function return type
+        auto easy_bind(R(T::*f)(FArgs...), T* meh, Args&&... args)
+        ^~~~
+../../libsteam/vendor/ksignals.h:38:28: error: no template named 'make_integer_sequence' in namespace 'std'; did you mean '__make_integer_seq'?
+                return detail::easy_bind(std::make_integer_sequence<size_t, sizeof...(FArgs)-sizeof...(Args)>{}, f, meh, std::forward<Args>(args)...);
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                         __make_integer_seq
+note: '__make_integer_seq' declared here
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+2 warnings and 20 errors generated.
+FAILED: c++ -MMD -MF obj/src/rd2lbot.BotStateMachine.o.d -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_NO_DEPRECATED -DBOOST_ERROR_CODE_HEADER_ONLY -DDEBUG -I../../src -I../../vendor/json/src -I../../vendor/beast/include -I../../libsteam/vendor -I../../libsteam/protobufs/protobuf/src -I../../libirc -I../../libsteam/libsteam -I../../libsteam/vendor -I../../libsteam/protobufs -I../../libsteam/libdota2 -Weverything -Wno-unused-function -Wno-non-virtual-dtor -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-c++11-extensions -Wno-c++11-long-long -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-documentation -Wno-documentation-unknown-command -Wno-newline-eof -Wno-shadow -Wno-undef -Wno-implicit-fallthrough -Wno-padded -Wno-conversion -Wno-undefined-reinterpret-cast -Wno-weak-vtables -Wno-deprecated -Wno-extra-semi -Wno-switch-enum -Wno-global-constructors -Wno-exit-time-destructors -Wno-reserved-id-macro -Wno-sign-conversion -Wno-covered-switch-default -Wno-reorder -Wno-double-promotion -Wno-missing-prototypes -Wno-missing-variable-declarations --system-header-prefix=google/protobuf --system-header-prefix=boost --system-header-prefix=cryptopp   -c ../../src/BotStateMachine.cpp -o obj/src/rd2lbot.BotStateMachine.o
+In file included from ../../src/BotStateMachine.cpp:1:
+In file included from ../../src/BotStateMachine.h:4:
+In file included from ../../src/irc/RD2LIRC.h:2:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/future:35:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/bits/c++0x_warning.h:32:2: error: This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+#error This file requires compiler and library support \
+ ^
+In file included from ../../src/BotStateMachine.cpp:1:
+In file included from ../../src/BotStateMachine.h:4:
+In file included from ../../src/irc/RD2LIRC.h:3:
+In file included from ../../libirc/IRC.h:4:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/string_view:39:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/bits/c++17_warning.h:32:2: error: This file requires compiler and library support for the ISO C++ 2017 standard. This support must be enabled with the -std=c++17 or -std=gnu++17 compiler options.
+#error This file requires compiler and library support \
+ ^
+In file included from ../../src/BotStateMachine.cpp:1:
+In file included from ../../src/BotStateMachine.h:4:
+In file included from ../../src/irc/RD2LIRC.h:3:
+In file included from ../../libirc/IRC.h:5:
+In file included from ../../libirc/IRCBase.h:6:
+In file included from ../../libsteam/vendor/ksignals.h:8:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/shared_mutex:35:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/bits/c++14_warning.h:32:2: error: This file requires compiler and library support for the ISO C++ 2014 standard. This support must be enabled with the -std=c++14 or -std=gnu++14 compiler options.
+#error This file requires compiler and library support \
+ ^
+In file included from ../../src/BotStateMachine.cpp:1:
+In file included from ../../src/BotStateMachine.h:4:
+In file included from ../../src/irc/RD2LIRC.h:3:
+In file included from ../../libirc/IRC.h:5:
+In file included from ../../libirc/IRCBase.h:6:
+../../libsteam/vendor/ksignals.h:17:9: error: no template named 'is_placeholder'; did you mean 'boost::is_placeholder'?
+        struct is_placeholder< ::ksignals::placeholder<I>> : std::integral_constant<int, I> {};
+               ^~~~~~~~~~~~~~
+               boost::is_placeholder
+../../libsteam/vendor/boost/is_placeholder.hpp:24:28: note: 'boost::is_placeholder' declared here
+template< class T > struct is_placeholder
+                           ^
+In file included from ../../src/BotStateMachine.cpp:1:
+In file included from ../../src/BotStateMachine.h:4:
+In file included from ../../src/irc/RD2LIRC.h:3:
+In file included from ../../libirc/IRC.h:5:
+In file included from ../../libirc/IRCBase.h:6:
+../../libsteam/vendor/ksignals.h:17:53: error: expected expression
+        struct is_placeholder< ::ksignals::placeholder<I>> : std::integral_constant<int, I> {};
+                                                           ^
+../../libsteam/vendor/ksignals.h:17:86: error: expected a type
+        struct is_placeholder< ::ksignals::placeholder<I>> : std::integral_constant<int, I> {};
+                                                                                            ^
+../../libsteam/vendor/ksignals.h:23:8: warning: variable templates are a C++14 extension [-Wc++14-extensions]
+                auto easy_bind(std::integer_sequence<size_t, Is...>, F const& f, Args&&... args)
+                     ^
+../../libsteam/vendor/ksignals.h:22:27: error: template parameter pack must be the last template parameter
+                template<std::size_t... Is, class F, class... Args>
+                                        ^
+../../libsteam/vendor/ksignals.h:23:23: error: no member named 'integer_sequence' in namespace 'std'
+                auto easy_bind(std::integer_sequence<size_t, Is...>, F const& f, Args&&... args)
+                               ~~~~~^
+../../libsteam/vendor/ksignals.h:23:40: error: unexpected type name 'size_t': expected expression
+                auto easy_bind(std::integer_sequence<size_t, Is...>, F const& f, Args&&... args)
+                                                     ^
+../../libsteam/vendor/ksignals.h:23:83: error: expected ';' at end of declaration
+                auto easy_bind(std::integer_sequence<size_t, Is...>, F const& f, Args&&... args)
+                                                                                                ^
+                                                                                                ;
+../../libsteam/vendor/ksignals.h:24:3: error: expected unqualified-id
+                {
+                ^
+../../libsteam/vendor/ksignals.h:30:7: warning: variable templates are a C++14 extension [-Wc++14-extensions]
+        auto easy_bind(std::function<R(FArgs...)> const& f, Args&&... args)
+             ^
+../../libsteam/vendor/ksignals.h:29:29: error: template parameter pack must be the last template parameter
+        template<class R, class... FArgs, class... Args>
+                                   ^
+../../libsteam/vendor/ksignals.h:30:22: error: no member named 'function' in namespace 'std'
+        auto easy_bind(std::function<R(FArgs...)> const& f, Args&&... args)
+                       ~~~~~^
+../../libsteam/vendor/ksignals.h:30:33: error: 'FArgs' does not refer to a value
+        auto easy_bind(std::function<R(FArgs...)> const& f, Args&&... args)
+                                       ^
+../../libsteam/vendor/ksignals.h:29:29: note: declared here
+        template<class R, class... FArgs, class... Args>
+                                   ^
+../../libsteam/vendor/ksignals.h:30:44: error: expected expression
+        auto easy_bind(std::function<R(FArgs...)> const& f, Args&&... args)
+                                                  ^
+../../libsteam/vendor/ksignals.h:30:54: error: 'Args' does not refer to a value
+        auto easy_bind(std::function<R(FArgs...)> const& f, Args&&... args)
+                                                            ^
+../../libsteam/vendor/ksignals.h:29:45: note: declared here
+        template<class R, class... FArgs, class... Args>
+                                                   ^
+../../libsteam/vendor/ksignals.h:30:69: error: expected ';' at end of declaration
+        auto easy_bind(std::function<R(FArgs...)> const& f, Args&&... args)
+                                                                           ^
+                                                                           ;
+../../libsteam/vendor/ksignals.h:31:2: error: expected unqualified-id
+        {
+        ^
+../../libsteam/vendor/ksignals.h:36:2: error: 'auto' not allowed in function return type
+        auto easy_bind(R(T::*f)(FArgs...), T* meh, Args&&... args)
+        ^~~~
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+2 warnings and 20 errors generated.
+FAILED: c++ -MMD -MF obj/src/dota/rd2lbot.SteamDirectory.o.d -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_NO_DEPRECATED -DBOOST_ERROR_CODE_HEADER_ONLY -DDEBUG -I../../src -I../../vendor/json/src -I../../vendor/beast/include -I../../libsteam/vendor -I../../libsteam/protobufs/protobuf/src -I../../libirc -I../../libsteam/libsteam -I../../libsteam/vendor -I../../libsteam/protobufs -I../../libsteam/libdota2 -Weverything -Wno-unused-function -Wno-non-virtual-dtor -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-c++11-extensions -Wno-c++11-long-long -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-documentation -Wno-documentation-unknown-command -Wno-newline-eof -Wno-shadow -Wno-undef -Wno-implicit-fallthrough -Wno-padded -Wno-conversion -Wno-undefined-reinterpret-cast -Wno-weak-vtables -Wno-deprecated -Wno-extra-semi -Wno-switch-enum -Wno-global-constructors -Wno-exit-time-destructors -Wno-reserved-id-macro -Wno-sign-conversion -Wno-covered-switch-default -Wno-reorder -Wno-double-promotion -Wno-missing-prototypes -Wno-missing-variable-declarations --system-header-prefix=google/protobuf --system-header-prefix=boost --system-header-prefix=cryptopp   -c ../../src/dota/SteamDirectory.cpp -o obj/src/dota/rd2lbot.SteamDirectory.o
+In file included from ../../src/dota/SteamDirectory.cpp:2:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/cstdint:35:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/bits/c++0x_warning.h:32:2: error: This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+#error This file requires compiler and library support \
+ ^
+In file included from ../../src/dota/SteamDirectory.cpp:3:
+../../vendor/json/src/json.hpp:127:36: error: no type named 'int64_t' in namespace 'std'; did you mean simply 'int64_t'?
+         class NumberIntegerType = std::int64_t,
+                                   ^~~~~~~~~~~~
+                                   int64_t
+/usr/include/x86_64-linux-gnu/sys/types.h:197:1: note: 'int64_t' declared here
+__intN_t (64, __DI__);
+^
+/usr/include/x86_64-linux-gnu/sys/types.h:188:15: note: expanded from macro '__intN_t'
+  typedef int int##N##_t __attribute__ ((__mode__ (MODE)))
+              ^
+<scratch space>:135:1: note: expanded from here
+int64_t
+^
+In file included from ../../src/dota/SteamDirectory.cpp:3:
+../../vendor/json/src/json.hpp:128:42: error: no type named 'uint64_t' in namespace 'std'
+         class NumberUnsignedType = std::uint64_t,
+                                    ~~~~~^
+../../vendor/json/src/json.hpp:127:16: error: template parameter missing a default argument
+         class NumberIntegerType = std::int64_t,
+               ^
+../../vendor/json/src/json.hpp:126:62: note: previous default template argument defined here
+         class StringType = std::string, class BooleanType = bool,
+                                                             ^
+../../vendor/json/src/json.hpp:128:16: error: template parameter missing a default argument
+         class NumberUnsignedType = std::uint64_t,
+               ^
+../../vendor/json/src/json.hpp:126:62: note: previous default template argument defined here
+         class StringType = std::string, class BooleanType = bool,
+                                                             ^
+../../vendor/json/src/json.hpp:198:30: warning: 'noexcept' is a keyword in C++11 [-Wc++11-compat]
+    const char* what() const noexcept override
+                             ^
+../../vendor/json/src/json.hpp:198:17: error: exception specification of overriding function is more lax than base version
+    const char* what() const noexcept override
+                ^
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/bits/exception.h:69:5: note: overridden virtual function is here
+    what() const _GLIBCXX_TXN_SAFE_DYN _GLIBCXX_USE_NOEXCEPT;
+    ^
+In file included from ../../src/dota/SteamDirectory.cpp:3:
+../../vendor/json/src/json.hpp:198:29: error: expected ';' at end of declaration list
+    const char* what() const noexcept override
+                            ^
+                            ;
+../../vendor/json/src/json.hpp:207:48: error: member initializer 'id' does not name a non-static data member or base class
+    exception(int id_, const char* what_arg) : id(id_), m(what_arg) {}
+                                               ^~~~~~~
+../../vendor/json/src/json.hpp:211:56: error: no member named 'to_string' in namespace 'std'
+        return "[json.exception." + ename + "." + std::to_string(id) + "] ";
+                                                  ~~~~~^
+../../vendor/json/src/json.hpp:276:54: error: no member named 'to_string' in namespace 'std'
+                        (byte_ != 0 ? (" at " + std::to_string(byte_)) : "") +
+                                                ~~~~~^
+../../vendor/json/src/json.hpp:509:12: error: ISO C++ forbids forward references to 'enum' types
+enum class value_t : uint8_t
+           ^
+../../vendor/json/src/json.hpp:509:20: error: expected unqualified-id
+enum class value_t : uint8_t
+                   ^
+../../vendor/json/src/json.hpp:531:61: error: expected function body after function declarator
+inline bool operator<(const value_t lhs, const value_t rhs) noexcept
+                                                            ^
+../../vendor/json/src/json.hpp:533:12: warning: 'constexpr' is a keyword in C++11 [-Wc++11-compat]
+    static constexpr std::array<uint8_t, 8> order = {{
+           ^
+../../vendor/json/src/json.hpp:558:8: error: no template named 'is_basic_json'; did you mean 'basic_json'?
+struct is_basic_json<NLOHMANN_BASIC_JSON_TPL> : std::true_type {};
+       ^~~~~~~~~~~~~
+       basic_json
+../../vendor/json/src/json.hpp:133:7: note: 'basic_json' declared here
+class basic_json;
+      ^
+../../vendor/json/src/json.hpp:558:1: warning: 'basic_json' defined as a struct template here but previously declared as a class template [-Wmismatched-tags]
+struct is_basic_json<NLOHMANN_BASIC_JSON_TPL> : std::true_type {};
+^
+../../vendor/json/src/json.hpp:133:1: note: did you mean struct here?
+class basic_json;
+^~~~~
+struct
+../../vendor/json/src/json.hpp:558:22: error: template argument for template template parameter must be a class template
+struct is_basic_json<NLOHMANN_BASIC_JSON_TPL> : std::true_type {};
+                     ^
+../../vendor/json/src/json.hpp:147:5: note: expanded from macro 'NLOHMANN_BASIC_JSON_TPL'
+    basic_json<ObjectType, ArrayType, StringType, BooleanType,             \
+    ^
+../../vendor/json/src/json.hpp:558:54: error: unknown class name 'true_type'; did you mean '__true_type'?
+struct is_basic_json<NLOHMANN_BASIC_JSON_TPL> : std::true_type {};
+                                                     ^~~~~~~~~
+                                                     __true_type
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/bits/cpp_type_traits.h:73:10: note: '__true_type' declared here
+  struct __true_type { };
+         ^
+In file included from ../../src/dota/SteamDirectory.cpp:3:
+../../vendor/json/src/json.hpp:562:30: error: no template named 'enable_if' in namespace 'std'; did you mean '__gnu_cxx::__enable_if'?
+using enable_if_t = typename std::enable_if<B, T>::type;
+                             ^~~~~~~~~~~~~~
+                             __gnu_cxx::__enable_if
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/ext/type_traits.h:45:12: note: '__gnu_cxx::__enable_if' declared here
+    struct __enable_if 
+           ^
+In file included from ../../src/dota/SteamDirectory.cpp:3:
+../../vendor/json/src/json.hpp:565:33: error: no template named 'remove_cv' in namespace 'std'; did you mean 'remove_if'?
+using uncvref_t = typename std::remove_cv<typename std::remove_reference<T>::type>::type;
+                           ~~~~~^~~~~~~~~
+                                remove_if
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/bits/stl_algo.h:929:5: note: 'remove_if' declared here
+    remove_if(_ForwardIterator __first, _ForwardIterator __last,
+    ^
+In file included from ../../src/dota/SteamDirectory.cpp:3:
+../../vendor/json/src/json.hpp:565:57: error: no type named 'remove_reference' in namespace 'std'
+using uncvref_t = typename std::remove_cv<typename std::remove_reference<T>::type>::type;
+                                          ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+3 warnings and 20 errors generated.
+FAILED: c++ -MMD -MF obj/libsteam/libdota2/libdota2.GC.o.d -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_NO_DEPRECATED -DBOOST_ERROR_CODE_HEADER_ONLY -DDEBUG -I../../libsteam/libdota2 -I../../libsteam/protobufs/protobuf/src -I../../libsteam/libsteam -I../../libsteam/vendor -I../../libsteam/protobufs -Weverything -Wno-unused-function -Wno-non-virtual-dtor -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-c++11-extensions -Wno-c++11-long-long -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-documentation -Wno-documentation-unknown-command -Wno-newline-eof -Wno-shadow -Wno-undef -Wno-implicit-fallthrough -Wno-padded -Wno-conversion -Wno-undefined-reinterpret-cast -Wno-weak-vtables -Wno-deprecated -Wno-extra-semi -Wno-switch-enum -Wno-global-constructors -Wno-exit-time-destructors -Wno-reserved-id-macro -Wno-sign-conversion -Wno-covered-switch-default -Wno-reorder -Wno-double-promotion -Wno-missing-prototypes -Wno-missing-variable-declarations --system-header-prefix=google/protobuf --system-header-prefix=boost --system-header-prefix=cryptopp   -c ../../libsteam/libdota2/GC.cpp -o obj/libsteam/libdota2/libdota2.GC.o
+In file included from ../../libsteam/libdota2/GC.cpp:1:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+In file included from ../../libsteam/libsteam/steam_language/steam_language.h:3:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/cstdint:35:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/bits/c++0x_warning.h:32:2: error: This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+#error This file requires compiler and library support \
+ ^
+In file included from ../../libsteam/libdota2/GC.cpp:1:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+In file included from ../../libsteam/libsteam/steam_language/steam_language.h:8:
+../../libsteam/libsteam/steam_language/enums.h:660:16: error: ISO C++ forbids forward references to 'enum' types
+    enum class EActivationCodeClass : uint32_t
+               ^
+../../libsteam/libsteam/steam_language/enums.h:660:37: error: expected unqualified-id
+    enum class EActivationCodeClass : uint32_t
+                                    ^
+../../libsteam/libsteam/steam_language/enums.h:685:16: error: ISO C++ forbids forward references to 'enum' types
+    enum class ERegionCode : uint8_t
+               ^
+../../libsteam/libsteam/steam_language/enums.h:685:28: error: expected unqualified-id
+    enum class ERegionCode : uint8_t
+                           ^
+In file included from ../../libsteam/libdota2/GC.cpp:1:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+In file included from ../../libsteam/libsteam/steam_language/steam_language.h:9:
+../../libsteam/libsteam/steam_language/netheader.h:7:16: error: ISO C++ forbids forward references to 'enum' types
+    enum class EUdpPacketType : uint8_t
+               ^
+../../libsteam/libsteam/steam_language/netheader.h:7:31: error: expected unqualified-id
+    enum class EUdpPacketType : uint8_t
+                              ^
+../../libsteam/libsteam/steam_language/netheader.h:23:15: error: unknown type name 'uint32_t'
+        const uint32_t MAGIC = 0x31305356;
+              ^
+../../libsteam/libsteam/steam_language/netheader.h:25:9: error: unknown type name 'uint32_t'
+        uint32_t magic = UdpHeader::MAGIC;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:27:9: error: unknown type name 'uint16_t'
+        uint16_t payloadSize;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:29:9: error: unknown type name 'uint8_t'
+        uint8_t flags;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:31:9: error: unknown type name 'uint32_t'
+        uint32_t sourceConnID = 512;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:32:9: error: unknown type name 'uint32_t'
+        uint32_t destConnID;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:34:9: error: unknown type name 'uint32_t'
+        uint32_t seqThis;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:35:9: error: unknown type name 'uint32_t'
+        uint32_t seqAck;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:37:9: error: unknown type name 'uint32_t'
+        uint32_t packetsInMsg;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:38:9: error: unknown type name 'uint32_t'
+        uint32_t msgStartSeq;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:40:9: error: unknown type name 'uint32_t'
+        uint32_t msgSize;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:28:37: error: incomplete type 'steam::EUdpPacketType' named in nested name specifier
+        EUdpPacketType packetType = EUdpPacketType::Invalid;
+                                    ^~~~~~~~~~~~~~~~
+../../libsteam/libsteam/steam_language/netheader.h:45:16: warning: 'constexpr' is a keyword in C++11 [-Wc++11-compat]
+        static constexpr uint32_t CHALLENGE_MASK = 0xA426DF2B;
+               ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+1 warning and 20 errors generated.
+FAILED: c++ -MMD -MF obj/src/rd2lbot.main.o.d -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_NO_DEPRECATED -DBOOST_ERROR_CODE_HEADER_ONLY -DDEBUG -I../../src -I../../vendor/json/src -I../../vendor/beast/include -I../../libsteam/vendor -I../../libsteam/protobufs/protobuf/src -I../../libirc -I../../libsteam/libsteam -I../../libsteam/vendor -I../../libsteam/protobufs -I../../libsteam/libdota2 -Weverything -Wno-unused-function -Wno-non-virtual-dtor -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-c++11-extensions -Wno-c++11-long-long -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-documentation -Wno-documentation-unknown-command -Wno-newline-eof -Wno-shadow -Wno-undef -Wno-implicit-fallthrough -Wno-padded -Wno-conversion -Wno-undefined-reinterpret-cast -Wno-weak-vtables -Wno-deprecated -Wno-extra-semi -Wno-switch-enum -Wno-global-constructors -Wno-exit-time-destructors -Wno-reserved-id-macro -Wno-sign-conversion -Wno-covered-switch-default -Wno-reorder -Wno-double-promotion -Wno-missing-prototypes -Wno-missing-variable-declarations --system-header-prefix=google/protobuf --system-header-prefix=boost --system-header-prefix=cryptopp   -c ../../src/main.cpp -o obj/src/rd2lbot.main.o
+In file included from ../../src/main.cpp:4:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+In file included from ../../libsteam/libsteam/steam_language/steam_language.h:3:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/cstdint:35:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/bits/c++0x_warning.h:32:2: error: This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+#error This file requires compiler and library support \
+ ^
+In file included from ../../src/main.cpp:4:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+In file included from ../../libsteam/libsteam/steam_language/steam_language.h:8:
+../../libsteam/libsteam/steam_language/enums.h:660:16: error: ISO C++ forbids forward references to 'enum' types
+    enum class EActivationCodeClass : uint32_t
+               ^
+../../libsteam/libsteam/steam_language/enums.h:660:37: error: expected unqualified-id
+    enum class EActivationCodeClass : uint32_t
+                                    ^
+../../libsteam/libsteam/steam_language/enums.h:685:16: error: ISO C++ forbids forward references to 'enum' types
+    enum class ERegionCode : uint8_t
+               ^
+../../libsteam/libsteam/steam_language/enums.h:685:28: error: expected unqualified-id
+    enum class ERegionCode : uint8_t
+                           ^
+In file included from ../../src/main.cpp:4:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+In file included from ../../libsteam/libsteam/steam_language/steam_language.h:9:
+../../libsteam/libsteam/steam_language/netheader.h:7:16: error: ISO C++ forbids forward references to 'enum' types
+    enum class EUdpPacketType : uint8_t
+               ^
+../../libsteam/libsteam/steam_language/netheader.h:7:31: error: expected unqualified-id
+    enum class EUdpPacketType : uint8_t
+                              ^
+../../libsteam/libsteam/steam_language/netheader.h:28:37: error: incomplete type 'steam::EUdpPacketType' named in nested name specifier
+        EUdpPacketType packetType = EUdpPacketType::Invalid;
+                                    ^~~~~~~~~~~~~~~~
+../../libsteam/libsteam/steam_language/netheader.h:45:16: warning: 'constexpr' is a keyword in C++11 [-Wc++11-compat]
+        static constexpr uint32_t CHALLENGE_MASK = 0xA426DF2B;
+               ^
+../../libsteam/libsteam/steam_language/netheader.h:45:16: error: unknown type name 'constexpr'
+../../libsteam/libsteam/steam_language/netheader.h:45:34: error: expected ';' at end of declaration list
+        static constexpr uint32_t CHALLENGE_MASK = 0xA426DF2B;
+                                 ^
+                                 ;
+../../libsteam/libsteam/steam_language/netheader.h:47:9: error: unknown type name 'uint32_t'
+        uint32_t challengeValue;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:48:9: error: unknown type name 'uint32_t'
+        uint32_t serverLoad;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:53:41: error: no member named 'CHALLENGE_MASK' in 'steam::ChallengeData'; did you mean simply 'CHALLENGE_MASK'?
+        const uint32_t CHALLENGE_MASK = ChallengeData::CHALLENGE_MASK;
+                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                        CHALLENGE_MASK
+../../libsteam/libsteam/steam_language/netheader.h:53:24: note: 'CHALLENGE_MASK' declared here
+        const uint32_t CHALLENGE_MASK = ChallengeData::CHALLENGE_MASK;
+                       ^
+In file included from ../../src/main.cpp:4:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+../../libsteam/libsteam/steam_language/steam_language.h:9:10: warning: non-default #pragma pack value changes the alignment of struct or union members in the included file [-Wpragma-pack-suspicious-include]
+#include "netheader.h"
+         ^
+../../libsteam/libsteam/steam_language/steam_language.h:5:9: note: previous '#pragma pack' directive that modifies alignment is here
+#pragma pack(push, 1)
+        ^
+../../libsteam/libsteam/steam_language/steam_language.h:11:10: warning: non-default #pragma pack value changes the alignment of struct or union members in the included file [-Wpragma-pack-suspicious-include]
+#include "gamecoordinator.h"
+         ^
+../../libsteam/libsteam/steam_language/steam_language.h:5:9: note: previous '#pragma pack' directive that modifies alignment is here
+#pragma pack(push, 1)
+        ^
+In file included from ../../src/main.cpp:4:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+In file included from ../../libsteam/libsteam/steam_language/steam_language.h:12:
+../../libsteam/libsteam/steam_language/steammsg.h:19:16: error: unknown type name 'constexpr'
+        static constexpr uint32_t PROTOCOL_VERSION = 1;
+               ^
+../../libsteam/libsteam/steam_language/steammsg.h:19:34: error: expected ';' at end of declaration list
+        static constexpr uint32_t PROTOCOL_VERSION = 1;
+                                 ^
+                                 ;
+../../libsteam/libsteam/steam_language/steammsg.h:21:9: error: unknown type name 'uint32_t'
+        uint32_t protocolVersion = MsgChannelEncryptRequest::PROTOCOL_VERSION;
+        ^
+../../libsteam/libsteam/steam_language/steammsg.h:27:62: error: no member named 'PROTOCOL_VERSION' in 'steam::MsgChannelEncryptRequest'
+        uint32_t protocolVersion = MsgChannelEncryptRequest::PROTOCOL_VERSION;
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from ../../src/main.cpp:4:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+../../libsteam/libsteam/steam_language/steam_language.h:12:10: warning: non-default #pragma pack value changes the alignment of struct or union members in the included file [-Wpragma-pack-suspicious-include]
+#include "steammsg.h"
+         ^
+../../libsteam/libsteam/steam_language/steam_language.h:5:9: note: previous '#pragma pack' directive that modifies alignment is here
+#pragma pack(push, 1)
+        ^
+In file included from ../../src/main.cpp:4:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:4:
+../../libsteam/libsteam/RecurringTimer.h:12:64: error: no member named 'chrono' in namespace 'std'
+        using timer_t = boost::asio::basic_waitable_timer<std::chrono::steady_clock>;
+                                                          ~~~~~^
+../../libsteam/libsteam/RecurringTimer.h:13:33: error: no member named 'chrono' in namespace 'std'
+        using duration_t = std::chrono::steady_clock::duration;
+                           ~~~~~^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+4 warnings and 20 errors generated.
+FAILED: c++ -MMD -MF obj/src/dota/rd2lbot.Dota.o.d -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_NO_DEPRECATED -DBOOST_ERROR_CODE_HEADER_ONLY -DDEBUG -I../../src -I../../vendor/json/src -I../../vendor/beast/include -I../../libsteam/vendor -I../../libsteam/protobufs/protobuf/src -I../../libirc -I../../libsteam/libsteam -I../../libsteam/vendor -I../../libsteam/protobufs -I../../libsteam/libdota2 -Weverything -Wno-unused-function -Wno-non-virtual-dtor -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-c++11-extensions -Wno-c++11-long-long -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-documentation -Wno-documentation-unknown-command -Wno-newline-eof -Wno-shadow -Wno-undef -Wno-implicit-fallthrough -Wno-padded -Wno-conversion -Wno-undefined-reinterpret-cast -Wno-weak-vtables -Wno-deprecated -Wno-extra-semi -Wno-switch-enum -Wno-global-constructors -Wno-exit-time-destructors -Wno-reserved-id-macro -Wno-sign-conversion -Wno-covered-switch-default -Wno-reorder -Wno-double-promotion -Wno-missing-prototypes -Wno-missing-variable-declarations --system-header-prefix=google/protobuf --system-header-prefix=boost --system-header-prefix=cryptopp   -c ../../src/dota/Dota.cpp -o obj/src/dota/rd2lbot.Dota.o
+In file included from ../../src/dota/Dota.cpp:2:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+In file included from ../../libsteam/libsteam/steam_language/steam_language.h:3:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/cstdint:35:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/7.2.0/../../../../include/c++/7.2.0/bits/c++0x_warning.h:32:2: error: This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+#error This file requires compiler and library support \
+ ^
+In file included from ../../src/dota/Dota.cpp:2:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+In file included from ../../libsteam/libsteam/steam_language/steam_language.h:8:
+../../libsteam/libsteam/steam_language/enums.h:660:16: error: ISO C++ forbids forward references to 'enum' types
+    enum class EActivationCodeClass : uint32_t
+               ^
+../../libsteam/libsteam/steam_language/enums.h:660:37: error: expected unqualified-id
+    enum class EActivationCodeClass : uint32_t
+                                    ^
+../../libsteam/libsteam/steam_language/enums.h:685:16: error: ISO C++ forbids forward references to 'enum' types
+    enum class ERegionCode : uint8_t
+               ^
+../../libsteam/libsteam/steam_language/enums.h:685:28: error: expected unqualified-id
+    enum class ERegionCode : uint8_t
+                           ^
+In file included from ../../src/dota/Dota.cpp:2:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+In file included from ../../libsteam/libsteam/steam_language/steam_language.h:9:
+../../libsteam/libsteam/steam_language/netheader.h:7:16: error: ISO C++ forbids forward references to 'enum' types
+    enum class EUdpPacketType : uint8_t
+               ^
+../../libsteam/libsteam/steam_language/netheader.h:7:31: error: expected unqualified-id
+    enum class EUdpPacketType : uint8_t
+                              ^
+../../libsteam/libsteam/steam_language/netheader.h:28:37: error: incomplete type 'steam::EUdpPacketType' named in nested name specifier
+        EUdpPacketType packetType = EUdpPacketType::Invalid;
+                                    ^~~~~~~~~~~~~~~~
+../../libsteam/libsteam/steam_language/netheader.h:45:16: warning: 'constexpr' is a keyword in C++11 [-Wc++11-compat]
+        static constexpr uint32_t CHALLENGE_MASK = 0xA426DF2B;
+               ^
+../../libsteam/libsteam/steam_language/netheader.h:45:16: error: unknown type name 'constexpr'
+../../libsteam/libsteam/steam_language/netheader.h:45:34: error: expected ';' at end of declaration list
+        static constexpr uint32_t CHALLENGE_MASK = 0xA426DF2B;
+                                 ^
+                                 ;
+../../libsteam/libsteam/steam_language/netheader.h:47:9: error: unknown type name 'uint32_t'
+        uint32_t challengeValue;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:48:9: error: unknown type name 'uint32_t'
+        uint32_t serverLoad;
+        ^
+../../libsteam/libsteam/steam_language/netheader.h:53:41: error: no member named 'CHALLENGE_MASK' in 'steam::ChallengeData'; did you mean simply 'CHALLENGE_MASK'?
+        const uint32_t CHALLENGE_MASK = ChallengeData::CHALLENGE_MASK;
+                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                        CHALLENGE_MASK
+../../libsteam/libsteam/steam_language/netheader.h:53:24: note: 'CHALLENGE_MASK' declared here
+        const uint32_t CHALLENGE_MASK = ChallengeData::CHALLENGE_MASK;
+                       ^
+In file included from ../../src/dota/Dota.cpp:2:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+../../libsteam/libsteam/steam_language/steam_language.h:9:10: warning: non-default #pragma pack value changes the alignment of struct or union members in the included file [-Wpragma-pack-suspicious-include]
+#include "netheader.h"
+         ^
+../../libsteam/libsteam/steam_language/steam_language.h:5:9: note: previous '#pragma pack' directive that modifies alignment is here
+#pragma pack(push, 1)
+        ^
+../../libsteam/libsteam/steam_language/steam_language.h:11:10: warning: non-default #pragma pack value changes the alignment of struct or union members in the included file [-Wpragma-pack-suspicious-include]
+#include "gamecoordinator.h"
+         ^
+../../libsteam/libsteam/steam_language/steam_language.h:5:9: note: previous '#pragma pack' directive that modifies alignment is here
+#pragma pack(push, 1)
+        ^
+In file included from ../../src/dota/Dota.cpp:2:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+In file included from ../../libsteam/libsteam/steam_language/steam_language.h:12:
+../../libsteam/libsteam/steam_language/steammsg.h:19:16: error: unknown type name 'constexpr'
+        static constexpr uint32_t PROTOCOL_VERSION = 1;
+               ^
+../../libsteam/libsteam/steam_language/steammsg.h:19:34: error: expected ';' at end of declaration list
+        static constexpr uint32_t PROTOCOL_VERSION = 1;
+                                 ^
+                                 ;
+../../libsteam/libsteam/steam_language/steammsg.h:21:9: error: unknown type name 'uint32_t'
+        uint32_t protocolVersion = MsgChannelEncryptRequest::PROTOCOL_VERSION;
+        ^
+../../libsteam/libsteam/steam_language/steammsg.h:27:62: error: no member named 'PROTOCOL_VERSION' in 'steam::MsgChannelEncryptRequest'
+        uint32_t protocolVersion = MsgChannelEncryptRequest::PROTOCOL_VERSION;
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from ../../src/dota/Dota.cpp:2:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:3:
+../../libsteam/libsteam/steam_language/steam_language.h:12:10: warning: non-default #pragma pack value changes the alignment of struct or union members in the included file [-Wpragma-pack-suspicious-include]
+#include "steammsg.h"
+         ^
+../../libsteam/libsteam/steam_language/steam_language.h:5:9: note: previous '#pragma pack' directive that modifies alignment is here
+#pragma pack(push, 1)
+        ^
+In file included from ../../src/dota/Dota.cpp:2:
+In file included from ../../src/dota/Dota.h:3:
+In file included from ../../libsteam/libdota2/Dota.h:2:
+In file included from ../../libsteam/libdota2/GC.h:2:
+In file included from ../../libsteam/libsteam/Client.h:2:
+In file included from ../../libsteam/libsteam/CMClient.h:4:
+../../libsteam/libsteam/RecurringTimer.h:12:64: error: no member named 'chrono' in namespace 'std'
+        using timer_t = boost::asio::basic_waitable_timer<std::chrono::steady_clock>;
+                                                          ~~~~~^
+../../libsteam/libsteam/RecurringTimer.h:13:33: error: no member named 'chrono' in namespace 'std'
+        using duration_t = std::chrono::steady_clock::duration;
+                           ~~~~~^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+4 warnings and 20 errors generated.
+ninja: build stopped: subcommand failed.
