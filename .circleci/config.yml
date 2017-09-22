@@ -11,5 +11,5 @@ jobs:
       - setup_remote_docker
       - run: git submodule update --init --recursive
       - run: docker build -t sbx320/rd2lbot . 
-      - deploy: docker login sbx320 ${docker}
-      - deploy: docker push sbx320/rd2lbot
+      - run: docker login sbx320 ${docker}
+      - run: docker push sbx320/rd2lbot
