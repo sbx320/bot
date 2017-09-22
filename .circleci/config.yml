@@ -1,11 +1,18 @@
 version: 2
 jobs:
   build:
+    working_directory: /app
     docker:
-      - image: sbx320/build-environment:latest
-    working_directory: /go/src/github.com/{{ORG_NAME}}/{{REPO_NAME}}
+      - image: docker:17.05.0-ce-git
+    #  - image: sbx320/build-environment:latest
+    
     steps:
       - checkout
+      - setup_remote_docker
       - run: git submodule update --init --recursive
-      - run: python2 configure.py --ninja
-      - run: python3 build.py
+      - run: docker build -t sbx320/rd2lbot . 
+      - deploy: |
+          if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            docker login sbx320 ${docker}
+            docker push sbx320/rd2lbot
+          fi
