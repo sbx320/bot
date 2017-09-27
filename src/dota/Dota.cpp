@@ -163,7 +163,7 @@ Dota::Dota(boost::asio::io_service& io, const std::string& user, const std::stri
 	_lobbyContext.PlayerJoin.connect([&](auto id)
 	{
 		if(!playerCache.get(id).ready)
-			irc->Send("!team " + std::to_string(id));
+			irc->Send("!get-team " + std::to_string(id));
 	});
 
 	_lobbyContext.OnGameStateChange.connect([&](auto from, auto to)
