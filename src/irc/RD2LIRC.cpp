@@ -71,7 +71,6 @@ RD2LIRC::RD2LIRC(net::io_context & io, const std::string& host, const std::strin
 		std::cout << message << '\n';
 	});
 
-	// TODO: Refactor to split command parsing and command handling?
 	Events.Botinfo.connect([&]
 	{
 		Send("!state " + std::string(BotStateMachine::StateName(dota->state.State())));

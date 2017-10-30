@@ -13,6 +13,7 @@
 		'include_dirs': [
 			'.',
 			'../libsteam/vendor/',
+			'../libsteam/vendor/networking-ts-impl/include',
 		],
 		'sources': [
 			'<!@pymod_do_main(glob-files ./**/*.cpp)',

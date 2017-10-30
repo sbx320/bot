@@ -33,13 +33,16 @@
           '-Wno-c++98-compat', 
           '-Wno-c++98-compat-pedantic', 
 			    # Stupid warnings
+          '-Wno-unknown-warning-option',
           '-Wno-documentation', 
           '-Wno-documentation-unknown-command', 
           '-Wno-newline-eof', 
 			    #  Protobuf generates these
 			    '-Wno-zero-as-null-pointer-constant',
           '-Wno-unused-function',
-			    # 
+			    # Net-TS impl generates these
+          '-Wno-unused-local-typedef',
+          #
           '-Wno-non-virtual-dtor',
           '-Wno-gnu-anonymous-struct',
           '-Wno-nested-anon-types',
