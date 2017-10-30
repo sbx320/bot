@@ -1,14 +1,15 @@
 #pragma once
 
 #include <Dota.h>
-#include "utils/RecurringTimer.h"
 #include "LobbyContext.h"
 #include "BotStateMachine.h"
 #include "PlayerCache.h"
+#include <RecurringTimer.h>
+
 class Dota : public steam::Dota
 {
 public:
-	Dota(boost::asio::io_service& io, const std::string& user, const std::string& password);
+	Dota(net::io_context& io, const std::string& user, const std::string& password);
     ~Dota() = default;
     void Reconnect();
     void GetPlayerMMR(uint32_t aid);
@@ -36,6 +37,6 @@ private:
     std::string _user;
     std::string _password;
     bool _connected = false;
-    RecurringTimer _reconnectTimer;
+    steam::RecurringTimer _reconnectTimer;
     
 };

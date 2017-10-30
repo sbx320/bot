@@ -1,10 +1,9 @@
 #include "IRCBase.h"
 
-void IRC::IRCBase::Connect(boost::asio::ip::tcp::resolver::iterator & endpoint)
+void IRC::IRCBase::Connect(net::ip::tcp::resolver::results_type & endpoint)
 {
-    boost::asio::async_connect(*_socket.get(), endpoint,
-		[&](const boost::system::error_code& ec,
-            boost::asio::ip::tcp::resolver::iterator)
+    net::async_connect(*_socket, endpoint,
+		[&](const std::error_code& ec, auto)
 	{
 		if (ec)
 		{
@@ -18,7 +17,7 @@ void IRC::IRCBase::Connect(boost::asio::ip::tcp::resolver::iterator & endpoint)
 
 void IRC::IRCBase::Disconnect()
 {
-	Disconnect(boost::system::error_code());
+	Disconnect(std::error_code());
 }
 
 bool IRC::IRCBase::IsConnected()
@@ -40,8 +39,8 @@ void IRC::IRCBase::SendRaw(const std::string message)
 void IRC::IRCBase::Write()
 {
 	auto& message = _outBuffer.front();
-    boost::asio::async_write(*_socket, boost::asio::buffer(message.data(), message.length()),
-		[&](boost::system::error_code ec, std::size_t)
+    net::async_write(*_socket, net::buffer(message.data(), message.length()),
+		[&](std::error_code ec, std::size_t)
 	{
 		if (ec)
 		{
@@ -51,22 +50,22 @@ void IRC::IRCBase::Write()
 
 		// TODO: Check written length
 		_outBuffer.pop();
-		if (_outBuffer.size() > 0)
+		if (!_outBuffer.empty())
 			Write();
 	});
 }
 
-void IRC::IRCBase::Disconnect(const boost::system::error_code & ec)
+void IRC::IRCBase::Disconnect(const std::error_code & ec)
 {
-	_socket = std::make_unique<boost::asio::ip::tcp::socket>(_io);
+	_socket = std::make_unique<net::ip::tcp::socket>(_io);
 	_connected = false;
 	Disconnected(ec);
 }
 
 void IRC::IRCBase::Read()
 {
-    boost::asio::async_read_until(*_socket, _buffer, _delimiter,
-        [&](boost::system::error_code ec, std::size_t length)
+    net::async_read_until(*_socket, net::dynamic_buffer(_buffer), _delimiter,
+        [&](std::error_code ec, std::size_t length)
     {
         if (ec)
         {
@@ -80,15 +79,15 @@ void IRC::IRCBase::Read()
         }
 
         // Read line to a string_view
-        std::string line;
-        std::istream istream(&_buffer);
-        std::getline(istream, line);
-        std::string_view view = line;
-        
+        std::string_view line(_buffer.data(), length-2);
+		
         // Invoke Raw
-        Raw(view.substr(0, view.size() - 1));
+        Raw(line);
 
-        // Read next
+        // Discard the line
+		_buffer = _buffer.substr(length);
+		
+		// Read next
         Read();
     });
 }

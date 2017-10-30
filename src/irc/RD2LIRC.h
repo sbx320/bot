@@ -6,11 +6,8 @@
 class RD2LIRC : public IRC::IRC
 {
 public:
-	RD2LIRC(boost::asio::io_service& io, const std::string& host, const std::string& port, const std::string& user, const std::string& password);
+	RD2LIRC(net::io_context& io, const std::string& host, const std::string& port, const std::string& user, const std::string& password);
     void Send(const std::string message);
-    void Setup();
-
-	std::future<uint32_t>& async_get_team(uint32_t id);
 
 	class Dota* dota;
 private:

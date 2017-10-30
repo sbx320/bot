@@ -2,16 +2,17 @@
 #include <queue>
 #include <memory>
 #include <sstream>
-#include <boost/asio.hpp>
+#include "../libsteam/libsteam/NetTS.h"
 #include "ksignals.h"
+
 namespace IRC
 {
 	class IRCBase
 	{
 	public:
-		IRCBase(boost::asio::io_service& io) : _socket(std::make_unique<boost::asio::ip::tcp::socket>(io)), _io(io) {}
+		IRCBase(net::io_context& io) : _socket(std::make_unique<net::ip::tcp::socket>(io)), _io(io) { _buffer.reserve(1024); }
 
-		void Connect(boost::asio::ip::tcp::resolver::iterator& endpoint);
+		void Connect(net::ip::tcp::resolver::results_type& endpoint);
 		void Disconnect();
 		bool IsConnected();
 		void SendRaw(const std::string message);
@@ -19,19 +20,19 @@ namespace IRC
 
 		ksignals::Event<void(std::string_view)> Raw;
 		ksignals::Event<void()> Connected;
-		ksignals::Event<void(boost::system::error_code)> Disconnected;
+		ksignals::Event<void(std::error_code)> Disconnected;
 	private:
-		void Disconnect(const boost::system::error_code& ec);
+		void Disconnect(const std::error_code& ec);
 		void Read();
 		void Write();
 
 		std::queue<std::string> _outBuffer;
-		std::unique_ptr<boost::asio::ip::tcp::socket> _socket;
-        boost::asio::streambuf _buffer;
+		std::unique_ptr<net::ip::tcp::socket> _socket;
+        std::string _buffer;
         const std::string _delimiter = "\r\n";
 		bool _connected = false;
     protected:
-        boost::asio::io_service& _io;
+        net::io_context& _io;
 	};
 
 }

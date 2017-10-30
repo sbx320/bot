@@ -1,4 +1,3 @@
-#include <boost/asio.hpp>
 #include "Dota.h"
 #include "irc/RD2LIRC.h"
 #include <iostream>
@@ -20,7 +19,7 @@
 
 #include "LobbyContext.h"
 
-Dota::Dota(boost::asio::io_service& io, const std::string& user, const std::string& password)
+Dota::Dota(net::io_context& io, const std::string& user, const std::string& password)
     : steam::Dota(io), _reconnectTimer(io)
 {
 	_user = user;
@@ -451,8 +450,8 @@ void Dota::Reconnect()
     auto remote = SteamDirectory::GetServer();
 
     std::cout << "[Steam] Selected Server " << remote.first << ":" << remote.second << "\n";
-    boost::asio::ip::tcp::resolver resolver(_io);
-    auto dotaendpoint = resolver.resolve({ remote.first, remote.second });
+    net::ip::tcp::resolver resolver(_io);
+    auto dotaendpoint = resolver.resolve(remote.first, remote.second);
     Connect(dotaendpoint);
 }
 

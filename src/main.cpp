@@ -1,6 +1,5 @@
 #include <iostream>
 #include <functional>
-#include <boost/asio.hpp>
 #include "dota/Dota.h"
 #include "irc/RD2LIRC.h"
 
@@ -19,7 +18,7 @@ int main(int argc, const char* argv[])
 	std::string ircUser = argv[5];
 	std::string ircPassword = argv[6];
 
-	boost::asio::io_service io;
+	net::io_context io;
     printf("Initializing...\n");
 	Dota dota(io, steamUser, steamPassword);
 	RD2LIRC irc(io, ircHost, ircPort, ircUser, ircPassword);

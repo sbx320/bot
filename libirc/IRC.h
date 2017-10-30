@@ -10,7 +10,7 @@ namespace IRC
 	class IRC : public IRCBase
 	{
 	public:
-		IRC(boost::asio::io_service& io) : IRCBase(io) { Raw.connect([&](auto msg) { Parse(msg); }); }
+		IRC(net::io_context& io) : IRCBase(io) { Raw.connect([&](auto msg) { Parse(msg); }); }
 
 		// prefix, args, postfix
 		ksignals::Event<void(const std::string_view&, const std::vector<std::string_view>&, const std::string_view&)> Message;

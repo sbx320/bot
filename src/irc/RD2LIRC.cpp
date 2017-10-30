@@ -1,4 +1,3 @@
-#include <boost/asio.hpp>
 #include "RD2LIRC.h"
 #include "dota/Dota.h"
 #include "utils/CommandParser.h"
@@ -6,7 +5,7 @@
 #include "BotStateMachine.h"
 #include "utils/CommandHelper.h"
 
-RD2LIRC::RD2LIRC(boost::asio::io_service & io, const std::string& host, const std::string& port, const std::string& user, const std::string& password) :
+RD2LIRC::RD2LIRC(net::io_context & io, const std::string& host, const std::string& port, const std::string& user, const std::string& password) :
 	IRC::IRC(io)
 {
 	_nick = user;
@@ -40,8 +39,8 @@ RD2LIRC::RD2LIRC(boost::asio::io_service & io, const std::string& host, const st
 		}
 	});
     
-	boost::asio::ip::tcp::resolver resolver(_io);
-	auto ircendpoint = resolver.resolve({ host, port });
+	net::ip::tcp::resolver resolver(_io);
+	auto ircendpoint = resolver.resolve(host, port);
 	Connect(ircendpoint);
 
 	Connected.connect([&]
@@ -60,10 +59,10 @@ RD2LIRC::RD2LIRC(boost::asio::io_service & io, const std::string& host, const st
 		SendRaw(USER);
 	});
 
-	Disconnected.connect([&](const boost::system::error_code& ec)
+	Disconnected.connect([&](const std::error_code& ec)
 	{
 		std::cout << "[IRC] Disconnected..." << ec.message() << '\n';
-		auto ircendpoint = resolver.resolve({ host, port });
+		auto ircendpoint = resolver.resolve(host, port);
 		Connect(ircendpoint);
 	});
 

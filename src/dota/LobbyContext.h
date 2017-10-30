@@ -1,5 +1,4 @@
 #pragma once
-#include <boost/asio.hpp>
 #include "Dota.h"
 #include "irc/RD2LIRC.h"
 #include <iostream>
