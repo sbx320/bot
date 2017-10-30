@@ -6,6 +6,7 @@ jobs:
       - image: sbx320/build-environment:latest
     steps:
       - checkout
+      - run: git submodule update --init --recursive
       - run: python2 configure.py --ninja
       - run: python3 build.py
       - store_artifacts: 
