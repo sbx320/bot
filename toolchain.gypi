@@ -24,10 +24,11 @@
           '-std=c++1z',
         ],
         'cflags': [
+          # Warnings
           '-Weverything',
 			    # Intended behavior
           '-Wno-pragma-pack-suspicious-include',
-			    # We target C++17
+			    # We target C++17 + Networking TS
           '-Wno-c++11-extensions', 
           '-Wno-c++11-long-long', 
           '-Wno-c++98-compat', 
@@ -42,6 +43,13 @@
           '-Wno-unused-function',
 			    # Net-TS impl generates these
           '-Wno-unused-local-typedef',
+          '-Wno-disabled-macro-expansion',
+          '-Wno-old-style-cast',
+          # third party issues are not relevant for us
+			    '--system-header-prefix=google/protobuf',
+			    '--system-header-prefix=boost',
+			    '--system-header-prefix=cryptopp',
+			    '--system-header-prefix=zlib',
           #
           '-Wno-non-virtual-dtor',
           '-Wno-gnu-anonymous-struct',
@@ -65,10 +73,6 @@
 			    '-Wno-double-promotion',
 			    '-Wno-missing-prototypes', 
 			    '-Wno-missing-variable-declarations',
-			    '--system-header-prefix=google/protobuf',
-			    '--system-header-prefix=boost',
-			    '--system-header-prefix=cryptopp',
-			    '--system-header-prefix=zlib',
         ],
 			  'ldflags': [
 				  '-lpthread',
@@ -87,9 +91,17 @@
           ['OS=="linux"', {
             'cflags': [
 			        '-O2',
-              '-fdata-sections',
+              '-fvisibility=hidden',
+              '-fvisibility-inlines-hidden',
               '-ffunction-sections',
-			      ]
+              '-fdata-sections',
+			      ],
+            'ldflags': [
+              '-g',
+              '-Wl,--gc-sections',
+              '-fvisibility=hidden',
+              '-fvisibility-inlines-hidden',
+            ]
           }],
           ['OS=="win"', {
             'msvs_settings': {
