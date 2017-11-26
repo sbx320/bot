@@ -88,25 +88,7 @@ Dota::Dota(net::io_context& io, const std::string& user, const std::string& pass
 
 	ProfileCardsReceived.connect([&](const proto::dota::CMsgDOTAProfileCard& cards)
 	{
-		int solo = -1, party = -1;
-
-		for (auto slot : cards.slots())
-		{
-			if (slot.has_stat())
-			{
-				auto stat = slot.stat();
-				if (stat.stat_id() == proto::dota::CMsgDOTAProfileCard::k_eStat_SoloRank)
-				{
-					solo = stat.stat_score();
-				}
-				else if (stat.stat_id() == proto::dota::CMsgDOTAProfileCard::k_eStat_PartyRank)
-				{
-					party = stat.stat_score();
-				}
-			}
-		}
-
-		irc->Send("!player-mmr " + std::to_string(cards.account_id()) + " " + std::to_string(solo) + " " + std::to_string(party));
+		irc->Send("!player-mmr " + std::to_string(cards.account_id()) + " " + std::to_string(cards.rank_tier));
 	});
 
 	GCConnected.connect([&]
