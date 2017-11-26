@@ -88,7 +88,7 @@ Dota::Dota(net::io_context& io, const std::string& user, const std::string& pass
 
 	ProfileCardsReceived.connect([&](const proto::dota::CMsgDOTAProfileCard& cards)
 	{
-		irc->Send("!player-mmr " + std::to_string(cards.account_id()) + " " + std::to_string(cards.rank_tier));
+		irc->Send("!player-mmr " + std::to_string(cards.account_id()) + " " + std::to_string(cards.rank_tier()));
 	});
 
 	GCConnected.connect([&]
