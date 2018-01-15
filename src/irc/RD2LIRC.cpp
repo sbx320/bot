@@ -96,6 +96,14 @@ RD2LIRC::RD2LIRC(net::io_context & io, const std::string& host, const std::strin
 		dota->Reconnect();
 	});
 
+	Events.Id.connect([&]
+	{
+		if (dota->state.State() == BotStateMachine::BotState::IDLE || dota->state.State() == BotStateMachine::BotState::NOSTEAM)
+			return;
+
+		Send("Profile: https://steamcommunity.com/profiles/" + std::to_string(dota->steamID));
+	});
+
 	Events.Stop.connect([&]
 	{
 		dota->state.TransitionTo(BotStateMachine::BotState::IDLE);
@@ -146,6 +154,7 @@ void RD2LIRC::Send(const std::string message)
 void RD2LIRC::RunCommand(const std::vector<std::string_view>& args)
 {
 	command::RunCommand(args,
+		"!id", &Events.Id,
 		"!botinfo", &Events.Botinfo,
 		"!stop", &Events.Stop,
 		"!kill-lobby", &Events.KillLobby,

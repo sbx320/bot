@@ -13,6 +13,7 @@ public:
 private:
 	struct
 	{
+		ksignals::Event<void()> Id;
 		ksignals::Event<void()> Botinfo;
 		ksignals::Event<void()> Start;
 		ksignals::Event<void()> Stop;
